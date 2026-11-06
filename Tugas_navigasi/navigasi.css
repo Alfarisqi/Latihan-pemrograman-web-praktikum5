@@ -1,0 +1,39 @@
+/* Nama : Muhammad Alfa Risqi
+   NIM : 252520014
+   kelas : TI.b
+   */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #fff8f0;
+    color: #000000;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 16px 24px;
+    background-color: #0f766e;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.menu a:hover {
+    background-color: #f59e0b;
+    color: white;
+}
+
+main {
+    padding: 24px;
+}
